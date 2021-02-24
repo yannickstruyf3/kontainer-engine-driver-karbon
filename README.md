@@ -110,9 +110,9 @@ Deleting of the cluster is also supported. Just press `Delete` and confirm the d
 # DIY
 ## Building Karbon Cluster driver
 
-`make`
+`make build`
 
-Will output driver binaries into the `dist` directory, these can be imported 
+Will output driver binaries into the `bin` directory, these can be imported 
 directly into Rancher and used as cluster drivers.  They must be distributed 
 via URLs that your Rancher instance can establish a connection to and download 
 the driver binaries.  For example, this driver is distributed via a GitHub 
